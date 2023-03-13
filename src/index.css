@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --dark:#212121;
+  --secondary:#111827;
+}
+
+@layer base {
+  body {
+    @apply min-h-screen 
+  }
+}
